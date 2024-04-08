@@ -166,9 +166,10 @@ hr {
   font-weight:bold;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: #fa5214 !important;
   transition: background-color 0.5s ease !important;
+  border:3px solid #fa5214;
 }
 
 header {
