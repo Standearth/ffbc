@@ -50,5 +50,6 @@
     "purgecss": "^5.0.0",
     "stylelint": "^14.16.1",
     "stylelint-config-twbs-bootstrap": "^7.0.0"
-  }
+  },
+  "main": "index.js"
 }
