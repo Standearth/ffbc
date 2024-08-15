@@ -98,7 +98,7 @@ html {
 }
 
 .hero {
-  background-image:url('../images/bg.jpeg');
+  background-image:url('../images/bge.jpg');
   background-size:cover;
   background-attachment:fixed;
   height: 100vh;
@@ -124,7 +124,7 @@ html {
       width:100px;
       padding:5px;
       margin-left:20px;
-      border:2px solid #FFC814;
+      border:2px solid #8377fc;
       border-radius:10px;
       p {
         font-size:16px;
@@ -142,7 +142,7 @@ html {
     h1 {
       font-size:80px;
       span {
-        border-bottom:10px solid #fa5214;
+        border-bottom:10px solid #8377fc;
         font-style:italic;
       }
     }
@@ -195,7 +195,7 @@ header {
     opacity: 0.7;
     transition: .5s ease;
     background-color: #000;
-    background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0.1), rgba(249, 82, 19, 0.73)),
+    background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0.1), rgba(131, 119, 252, 0.73)),
 }
 
 .logos {

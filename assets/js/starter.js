@@ -32,8 +32,8 @@ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.querySelector(".countdown").innerHTML = "<span>Coming up in </span><div class=\"down\">"+days + "<p>days</p></div><div class=\"down\">"+hours + "<p>hours</p></div><div class=\"down\">"
-  + minutes + "<p>minutes</p></div><div class=\"down\">" + seconds + "<p>seconds</p></div>";
+  //document.querySelector(".countdown").innerHTML = "<span>Coming up in </span><div class=\"down\">"+days + "<p>days</p></div><div class=\"down\">"+hours + "<p>hours</p></div><div class=\"down\">"
+  //+ minutes + "<p>minutes</p></div><div class=\"down\">" + seconds + "<p>seconds</p></div>";
 
   // If the count down is finished, write some text
   if (distance < 0) {
