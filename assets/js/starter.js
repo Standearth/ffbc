@@ -37,7 +37,7 @@ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "The event has already started!";
+    //clearInterval(x);
+   // document.getElementById("demo").innerHTML = "The event has already started!";
   }
 }, 1000);
